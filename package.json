@@ -1,0 +1,20 @@
+{
+  "name": "node-basic",
+  "version": "1.0.0",
+  "description": "examples for basic understanding",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gaurangsharma/SetupNode.git"
+  },
+  "author": "Gaurang Sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gaurangsharma/SetupNode/issues"
+  },
+  "homepage": "https://github.com/Gaurangsharma/SetupNode#readme"
+}
