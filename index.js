@@ -1,14 +1,19 @@
-var rect=require("./rect");
+var rectange=require("./rect");
 function solveRact(l,b){
     console.log("length"+l+"breath"+b);
 
-    if (l<=0 || b<=0){
-        console.log("Enter value greater than zero");
-    }
-    else{
-    console.log("Area:"+rect.Area(l,b)+"Perimeter:"+rect.perimeter(l,b));
-    }
+    rectange(l,b,(err,rectange)=>{
+        if (err){
+            console.log("Error:"+err.message);
+        }
+        else{
+            console.log("Area: "+rectange.Area()+"  Peremeter: "+rectange.perimeter());
+        }
+    });
+    console.log("Afer the execution");
+     
 };
+
 
 solveRact(3,2);
 solveRact(4,6);
